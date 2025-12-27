@@ -9,13 +9,8 @@ export default defineNuxtConfig({
       colors: [
         'brand',
         'accent',
+        'paragraph',
         'background',
-        'primary',
-        'secondary',
-        'info',
-        'success',
-        'warning',
-        'error'
       ]
     }
   }
