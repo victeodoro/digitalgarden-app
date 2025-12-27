@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+    --color-brand-500: #009168;
+    --color-accent-500: #c04a6a;
+    --color-background-500: #FEFCE8;
+}
