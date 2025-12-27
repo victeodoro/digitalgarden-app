@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@iconify-json/lucide": "^1.2.82",
     "@nuxt/content": "^3.10.0",
+    "@nuxt/icon": "^2.1.1",
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.3.0",
     "better-sqlite3": "^12.5.0",
