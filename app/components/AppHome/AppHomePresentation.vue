@@ -1,5 +1,5 @@
 <template>
-    <div class="w-[75%]">
+    <section class="w-[75%]">
 
         <h3 class="text-2xl font-thin text-paragraph">
             I work with systems and services that break often.
@@ -27,5 +27,5 @@
                 PATRIA
             </NuxtLink>
         </h2>
-    </div>
+    </section>
 </template>
