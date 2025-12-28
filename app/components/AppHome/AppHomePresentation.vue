@@ -1,7 +1,7 @@
 <template>
     <div class="w-[75%]">
 
-        <h3 class="text-2xl font-light">
+        <h3 class="text-2xl font-thin text-paragraph">
             I work with systems and services that break often.
         </h3>
 
@@ -10,8 +10,8 @@
             things fail,
         </h1>
 
-        <h3 class="mt-5 text-2xl font-light">
-            some to exploit their flaws.
+        <h3 class="mt-5 text-2xl font-thin text-paragraph">
+            <span class="font-light">some</span> to exploit their flaws.
         </h3>
 
         <h2 class="font-thin text-paragraph text-3xl mt-10 mb-3">
