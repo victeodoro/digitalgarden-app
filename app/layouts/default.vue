@@ -1,5 +1,5 @@
 <template>
-    <UMain class="bg-background w-screen h-screen">
+    <UMain class="bg-background max-w-screen min-h-screen">
         <AppHeader />
         <slot />
     </UMain>
