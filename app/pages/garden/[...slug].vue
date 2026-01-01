@@ -30,7 +30,6 @@
     <div class="max-w-4xl mx-auto p-6">
         <div v-if="pending" class="opacity-60">carregando…</div>
 
-        <!-- Conteúdo -->
         <template v-else-if="doc">
             <section class="flex flex-col gap-8 mb-24">
                 
@@ -71,8 +70,5 @@
                 <ContentRenderer :value="doc" />
             </article>
         </template>
-
-        <!-- Se cair aqui, o watchEffect vai lançar 404 de qualquer forma -->
-        <div v-else class="opacity-60">não encontrado</div>
     </div>
 </template>
