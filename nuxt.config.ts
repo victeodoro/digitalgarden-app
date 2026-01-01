@@ -27,5 +27,11 @@ export default defineNuxtConfig({
         'perimeter'
       ]
     }
+  },
+  fonts: {
+    families: [
+      { name: 'Noto Sans', provider: 'google', weights: ['100 900'] },
+      { name: 'Noto Serif', provider: 'google', weights: ['100 900'] },
+    ]
   }
 })
