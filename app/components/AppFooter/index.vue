@@ -4,17 +4,26 @@
             <h2 class="text-2xl text-paragraph font-light mb-6">Deseja manter contato?</h2>
             <ul class="flex gap-5 mb-2">
                 <li>
-                    <NuxtLink>
+                    <NuxtLink
+                        to="https://www.instagram.com/jvicteodoro/"
+                        target="_blank"
+                    >
                         <UIcon name="i-mdi-instagram" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-accent"/>
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink>
+                    <NuxtLink
+                        to="https://www.linkedin.com/in/victeodoro/"
+                        target="_blank"
+                    >
                         <UIcon name="i-mdi-linkedin" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-accent"/>
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink>
+                    <NuxtLink
+                        to="https://github.com/victeodoro"
+                        target="_blank"
+                    >
                         <UIcon name="i-mdi-github" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-accent"/>
                     </NuxtLink>
                 </li>
