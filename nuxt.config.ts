@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   modules: ['@nuxt/content', '@nuxt/image', '@nuxt/ui', '@nuxt/fonts', '@nuxt/icon'],
+  vite: {
+    plugins: [(await import('@tailwindcss/vite')).default()],
+  },
   css: ['~/assets/css/main.css'],
   app: {
     head: {
@@ -10,7 +13,7 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
-      ]
+      ] 
     }
   },
   ui: {

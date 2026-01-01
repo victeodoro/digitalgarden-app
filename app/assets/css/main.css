@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+@plugin "@tailwindcss/typography";
 
 @layer base {
     html {
@@ -21,4 +22,16 @@
     --color-description: #A1A5BC;
     --color-background: #F6F5F1;
     --color-perimeter: #D4D6DA;
+}
+
+@layer utilities {
+    /* Paragraphs */
+    .article-paragraph {
+        @apply text-xl leading-relaxed my-5 text-paragraph font-normal text-justify;
+    }
+
+    /* Titles */
+    .article-title-1 {
+        @apply text-xl uppercase leading-relaxed my-5 font-medium text-justify text-accent;
+    }
 }
