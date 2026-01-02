@@ -14,7 +14,7 @@
         </h3>
 
         <h2 class="font-light text-paragraph text-3xl mt-10 mb-3">
-            Pentester, desenvolvedor, e cantor-compositor medíocre
+            Analista de cibersegurança, desenvolvedor, e cantor-compositor
         </h2>
 
         <h2 class="font-light text-paragraph text-3xl">
