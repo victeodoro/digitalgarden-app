@@ -23,7 +23,7 @@
 @layer utilities {
     /* Paragraphs */
     .article-paragraph {
-        @apply text-[1.3rem] font-serif leading-9 my-10 text-paragraph text-justify;
+        @apply text-[1.3rem] font-serif font-normal leading-9 my-10 text-paragraph text-justify;
     }
 
     /* Titles */

@@ -44,7 +44,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
               transition-[background-size] duration-200 ease-out
             "
           >
-            O Jardim
+            The Garden
           </NuxtLink>
         </li>
 
@@ -60,7 +60,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
               transition-[background-size] duration-200 ease-out
             "
           >
-            Contato
+            Contact
           </NuxtLink>
         </li>
       </ul>
@@ -140,7 +140,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
                   "
                   @click="closeMenu"
                 >
-                  O Jardim
+                  The Garden
                 </NuxtLink>
               </li>
 
@@ -157,7 +157,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
                   "
                   @click="closeMenu"
                 >
-                  Contato
+                  Contact
                 </NuxtLink>
               </li>
             </ul>

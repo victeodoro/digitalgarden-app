@@ -1,7 +1,7 @@
 <template>
     <section id="contact" class="flex flex-col gap-10 lg:gap-0 lg:flex-row justify-between items-center py-24 border-t border-perimeter">
         <div class="flex flex-col items-center lg:items-start">
-            <h2 class="text-2xl text-paragraph font-light mb-6">Deseja manter contato?</h2>
+            <h2 class="text-xl text-paragraph font-light mb-6">Would you like to keep in touch?</h2>
             <ul class="flex gap-5 mb-2">
                 <li>
                     <NuxtLink
@@ -46,7 +46,7 @@
                         transition-[background-size] duration-200 ease-out
                         "
                 >
-                    O Jardim
+                    The Garden
                 </NuxtLink>
             </li>
             <li>
@@ -63,7 +63,7 @@
                         transition-[background-size] duration-200 ease-out
                         "
                 >
-                    Contato
+                    Contact
                 </NuxtLink>
             </li>
         </ul>
