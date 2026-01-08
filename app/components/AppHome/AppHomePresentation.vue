@@ -1,6 +1,5 @@
 <template>
     <section class="lg:w-[95%] xl:w-[75%]">
-
         <h3 class="text-2xl font-light text-paragraph mb-3">
             I build critical systems and services.
         </h3>

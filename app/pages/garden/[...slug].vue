@@ -34,7 +34,7 @@
             <section class="flex flex-col gap-8 mb-24">
                 
                 <div class="flex flex-col">
-                    <h3 class="uppercase text-accent font-medium">
+                    <h3 class="uppercase text-brand font-medium">
                         {{ doc.type }}
                     </h3>
 
@@ -54,7 +54,7 @@
                         <span
                             v-for="tag in doc.tags"
                             :key="tag"
-                            class="text-accent font-normal"
+                            class="text-brand font-normal"
                         >
                             {{ tag }}
                         </span>

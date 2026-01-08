@@ -14,7 +14,7 @@
         class=
             "
                 flex gap-4 mb-4 break-inside-avoid rounded-md p-4 
-                cursor-pointer transition ease-in duration-250 border 
+                cursor-pointer transition ease-in bg-white duration-250 border 
                 border-background group hover:bg-white hover:border-perimeter 
                 hover:scale-105
             "
@@ -22,7 +22,7 @@
         <UIcon name="bxs-leaf" class="text-2xl shrink-0 text-brand mt-1" />
         
         <div class="flex flex-col gap-3">
-            <h2 class="text-xl text-paragraph font-serif transition-colors ease-in-out duration-250 group-hover:text-accent">
+            <h2 class="text-xl text-paragraph font-serif transition-colors ease-in-out duration-250 group-hover:text-brand">
                 {{ seed.title }}
             </h2>
 

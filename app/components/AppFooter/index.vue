@@ -8,7 +8,7 @@
                         to="https://www.instagram.com/jvicteodoro/"
                         target="_blank"
                     >
-                        <UIcon name="i-mdi-instagram" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-accent"/>
+                        <UIcon name="i-mdi-instagram" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-brand"/>
                     </NuxtLink>
                 </li>
                 <li>
@@ -16,7 +16,7 @@
                         to="https://www.linkedin.com/in/victeodoro/"
                         target="_blank"
                     >
-                        <UIcon name="i-mdi-linkedin" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-accent"/>
+                        <UIcon name="i-mdi-linkedin" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-brand"/>
                     </NuxtLink>
                 </li>
                 <li>
@@ -24,7 +24,7 @@
                         to="https://github.com/victeodoro"
                         target="_blank"
                     >
-                        <UIcon name="i-mdi-github" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-accent"/>
+                        <UIcon name="i-mdi-github" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-brand"/>
                     </NuxtLink>
                 </li>
             </ul>
@@ -39,7 +39,7 @@
                         "
                         text-paragraph font-light duration-300 transition cursor-pointer
                         relative inline-block pb-1
-                        bg-[linear-gradient(var(--color-accent),var(--color-accent))]
+                        bg-[linear-gradient(var(--color-brand),var(--color-brand))]
                         bg-no-repeat bg-left-bottom
                         bg-[length:0_2px] hover:bg-[length:100%_2px]
                         focus-visible:bg-[length:100%_2px]
@@ -56,7 +56,7 @@
                         "
                         text-paragraph font-light duration-300 transition cursor-pointer
                         relative inline-block pb-1
-                        bg-[linear-gradient(var(--color-accent),var(--color-accent))]
+                        bg-[linear-gradient(var(--color-brand),var(--color-brand))]
                         bg-no-repeat bg-left-bottom
                         bg-[length:0_2px] hover:bg-[length:100%_2px]
                         focus-visible:bg-[length:100%_2px]

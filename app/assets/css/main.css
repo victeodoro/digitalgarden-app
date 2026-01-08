@@ -12,11 +12,10 @@
     --font-sans: "Noto Sans";
     --font-serif: "Noto Serif";
 
-    --color-brand: #0f4e2b;
-    --color-accent: #c58b3c;
+    --color-brand: #E63345;
     --color-paragraph: #211F1D;
     --color-description: #A1A5BC;
-    --color-background: #F6F5F1;
+    --color-background: #FDFDFD;
     --color-perimeter: #D4D6DA;
 }
 
@@ -28,6 +27,6 @@
 
     /* Titles */
     .article-title-1 {
-        @apply text-xl uppercase leading-relaxed my-5 font-medium text-justify text-accent;
+        @apply text-xl uppercase leading-relaxed my-5 font-medium text-justify text-brand;
     }
 }

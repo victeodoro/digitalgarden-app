@@ -20,7 +20,6 @@ export default defineNuxtConfig({
     theme: {
       colors: [
         'brand',
-        'accent',
         'paragraph',
         'description',
         'background',

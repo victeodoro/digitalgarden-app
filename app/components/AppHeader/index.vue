@@ -37,7 +37,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
             to="/#garden"
             class="
               text-paragraph cursor-pointer relative inline-block pb-1
-              bg-[linear-gradient(var(--color-accent),var(--color-accent))]
+              bg-[linear-gradient(var(--color-brand),var(--color-brand))]
               bg-no-repeat bg-left-bottom
               bg-[length:0_2px] hover:bg-[length:100%_2px]
               focus-visible:bg-[length:100%_2px]
@@ -53,7 +53,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
             to="/#contact"
             class="
               text-paragraph cursor-pointer relative inline-block pb-1
-              bg-[linear-gradient(var(--color-accent),var(--color-accent))]
+              bg-[linear-gradient(var(--color-brand),var(--color-brand))]
               bg-no-repeat bg-left-bottom
               bg-[length:0_2px] hover:bg-[length:100%_2px]
               focus-visible:bg-[length:100%_2px]
@@ -69,7 +69,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
         type="button"
         class="lg:hidden inline-flex items-center justify-center rounded-md p-2
                text-paragraph hover:bg-white/5 focus-visible:outline-none focus-visible:ring-2
-               focus-visible:ring-[var(--color-accent)]"
+               focus-visible:ring-[var(--color-brand)]"
         :aria-expanded="isOpen"
         aria-controls="mobile-menu"
         aria-label="Abrir menu"
@@ -116,7 +116,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
             <button
               type="button"
               class="rounded-md p-2 hover:bg-white/5 focus-visible:outline-none focus-visible:ring-2
-                     focus-visible:ring-[var(--color-accent)]"
+                     focus-visible:ring-[var(--color-brand)]"
               aria-label="Fechar menu"
               @click="closeMenu"
             >
@@ -132,7 +132,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
                   to="#garden"
                   class="
                     relative inline-block pb-1
-                    bg-[linear-gradient(var(--color-accent),var(--color-accent))]
+                    bg-[linear-gradient(var(--color-brand),var(--color-brand))]
                     bg-no-repeat bg-left-bottom
                     bg-[length:0_2px] hover:bg-[length:100%_2px]
                     focus-visible:bg-[length:100%_2px]
@@ -149,7 +149,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
                   to="#contact"
                   class="
                     relative inline-block pb-1
-                    bg-[linear-gradient(var(--color-accent),var(--color-accent))]
+                    bg-[linear-gradient(var(--color-brand),var(--color-brand))]
                     bg-no-repeat bg-left-bottom
                     bg-[length:0_2px] hover:bg-[length:100%_2px]
                     focus-visible:bg-[length:100%_2px]
