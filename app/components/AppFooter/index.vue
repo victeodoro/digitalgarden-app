@@ -27,6 +27,14 @@
                         <UIcon name="i-mdi-github" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-brand"/>
                     </NuxtLink>
                 </li>
+                <li>
+                    <NuxtLink
+                        to="https://www.youtube.com/@vic.teodoro"
+                        target="_blank"
+                    >
+                        <UIcon name="i-mdi-youtube" class="text-3xl text-description duration-200 transition-colors cursor-pointer hover:text-brand"/>
+                    </NuxtLink>
+                </li>
             </ul>
             <span class="text-description">&copy; 2025 Victor Teodoro</span>
         </div>
