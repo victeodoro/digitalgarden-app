@@ -15,3 +15,13 @@
     --color-black-brand: #1C1917;
     --color-dark-blue-brand: #314158;
 }
+
+.prose pre {
+  background: #1C1917 !important;
+  color: #FFF !important;
+}
+
+.prose code {
+  background: #1C1917 !important;
+  color: #FFF !important;
+}
